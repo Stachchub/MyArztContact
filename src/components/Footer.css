@@ -1,0 +1,26 @@
+.footer {
+  background-color: #f8f9fa; /* Цвет фона футера */
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+  max-width: 100px; /*Ограничение ширины футера */
+  width: 100%;
+  justify-content: flex-end;
+}
+.footer-links a {
+  color: #28a745; /* Цвет ссылок */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
