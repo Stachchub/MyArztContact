@@ -41,7 +41,7 @@ function Booking() {
   };
 
   return (
-    <div>
+    <div className='block'>
       <h1>Termin buchen</h1>
       <form onSubmit={handleBooking}>
         <div>
@@ -51,7 +51,8 @@ function Booking() {
         </div>
         {existingPatient === false && <p>Entschuldigung, wir nehmen keine neuen Patienten mehr auf.</p>}
         {(existingPatient || existingPatient === null) && (
-          <>
+          <div>
+            <div></div>
             <label>
               Wählen Sie Ihre Versicherung:
               <select value={insurance} onChange={(e) => setInsurance(e.target.value)}>
@@ -74,7 +75,7 @@ function Booking() {
               ))}
             </div>
             <button type="submit">Bestätigen</button>
-          </>
+          </div>
         )}
       </form>
       {showLoginModal && <LoginModal onClose={() => setShowLoginModal(false)} />}

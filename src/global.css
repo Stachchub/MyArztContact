@@ -19,17 +19,9 @@ body {
   min-height: 100vh; /* Минимальная высота страницы */
 }
 
-footer {
-  background-color: var(--primary-color);
-  color: white;
-  text-align: center;
-  padding: 1rem;
-  width: 100%;
-  position: relative;
-  bottom: 0;
-}
 
 form {
+  /* width: 100%; */
   background-color: white;
   padding: 2rem;
   border-radius: 8px;
@@ -41,14 +33,16 @@ form {
 form label {
   display: block;
   margin-bottom: 0.5rem;
+  margin-top: 1rem;
+  width: 100%;
 }
 
 form input,
 form select,
 form button {
   width: 100%;
-  padding: 0.75rem;
-  margin-bottom: 1rem;
+  padding: 0.60rem;
+  margin-bottom: 0.4rem;
   border: 1px solid #ccc;
   border-radius: 4px;
 }

@@ -1,21 +1,30 @@
-.footer {
-  background-color: #f8f9fa; /* Цвет фона футера */
-  padding: 20px;
+
+footer {
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
   width: 100%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
   position: relative;
+  bottom: 0;
+}
+
+footer p {
+  margin-left: 20px;
 }
 
 .footer-links a {
-  color: #242424;
+  color: #363636;
   text-decoration: none;
   font-weight: bold;
   margin: 10px;
 
 }
 
+.footer-links {
+  padding-bottom: 30px;
+}
+
 .footer-links a:hover {
   text-decoration: underline;
+ 
 }
