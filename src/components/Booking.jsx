@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import LoginModal from './LoginModal'; // Импортируем компонент модального окна
+import '../styles/Booking.css'
 
 function Booking() {
   const [existingPatient, setExistingPatient] = useState(null);

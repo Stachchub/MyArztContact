@@ -2,7 +2,7 @@ import React from 'react';
 
 function Impressum() {
   return (
-    <div className="container">
+    <div className='impressum'>
       <h1>Impressum</h1>
       <p>
         Hier können Sie das Impressum einfügen. Diese Seite enthält rechtliche Informationen und Details zum Betreiber der Website.

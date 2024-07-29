@@ -19,39 +19,6 @@ body {
   min-height: 100vh; /* Минимальная высота страницы */
 }
 
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 2rem;
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  flex: 1; /* Занимает оставшееся пространство */
-}
-
-header {
-  background-color: var(--primary-color);
-  color: white;
-  padding: 1rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-header img {
-  height: 50px;
-}
-
-header nav a {
-  color: white;
-  text-decoration: none;
-  margin: 0 1rem;
-}
-
-header nav a:hover {
-  text-decoration: underline;
-}
-
 footer {
   background-color: var(--primary-color);
   color: white;
@@ -133,6 +100,7 @@ p {
 }
 
 .App {
+  width: auto;
   display: flex;
   flex-direction: column;
   min-height: 100vh;

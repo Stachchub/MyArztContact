@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import './LoginModal.css';
+import '../styles/LoginModal.css';
 
 function LoginModal({ onClose }) {
   const [formData, setFormData] = useState({

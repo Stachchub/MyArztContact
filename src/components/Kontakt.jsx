@@ -2,7 +2,7 @@ import React from 'react';
 
 function Kontakt() {
   return (
-    <div className="container">
+    <div>
       <h1>Kontakt</h1>
       <p>
         Hier können Sie Kontaktinformationen einfügen. Diese Seite bietet Besuchern die Möglichkeit, den Betreiber der Website zu kontaktieren.

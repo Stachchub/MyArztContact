@@ -1,8 +1,9 @@
 import React from 'react';
 
+
 function Datenschutz() {
   return (
-    <div className="container">
+    <div>
       <h1>Datenschutz</h1>
       <p>
         Hier können Sie Informationen zum Datenschutz einfügen. Diese Seite bietet Informationen darüber,

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer.css';
+import '../styles/Footer.css';
 
 function Footer() {
   return (
@@ -7,10 +7,10 @@ function Footer() {
       <div>
         <p>&copy; 2024 Praxis. Alle Rechte vorbehalten.</p>
       </div>
-      <div>
-        <a href="/privacy-policy"> Datenschutz</a>
-        <a href="/terms-of-service">Impressum</a>
-        <a href="/contact">Kontakt</a>
+      <div className='footer-links'>
+        <a href="/datenschutz"> Datenschutz</a>
+        <a href="/impressum">Impressum</a>
+        <a href="/kontakt">Kontakt</a>
       </div>
     </footer>
   );
