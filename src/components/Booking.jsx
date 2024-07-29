@@ -45,23 +45,22 @@ function Booking() {
       <h1>Termin buchen</h1>
       <form onSubmit={handleBooking}>
         <div>
-          Waren Sie schon einmal bei uns?
+          <p className='textTitle'>Waren Sie schon einmal bei uns?</p>
           <button type="button" onClick={() => handleExistingPatient(true)}>Ja</button>
           <button type="button" onClick={() => handleExistingPatient(false)}>Nein</button>
         </div>
         {existingPatient === false && <p>Entschuldigung, wir nehmen keine neuen Patienten mehr auf.</p>}
         {(existingPatient || existingPatient === null) && (
           <div>
-            <div></div>
+            <p className='textTitle'>Wählen Sie Ihre Versicherung:</p>
             <label>
-              Wählen Sie Ihre Versicherung:
               <select value={insurance} onChange={(e) => setInsurance(e.target.value)}>
                 <option value="Gesetzlich versichert">Gesetzlich versichert</option>
                 <option value="Privat versichert">Privat versichert</option>
               </select>
             </label>
+            <p className='textTitle'>Wählen Sie bitte einen Arzt:</p>
             <label>
-              Wählen Sie bitte einen Arzt:
               <select value={doctor} onChange={(e) => setDoctor(e.target.value)}>
                 {/* Подставьте список врачей */}
               </select>
